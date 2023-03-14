@@ -1,0 +1,16 @@
+my_dict = {'apple': 5, 'banana': 2, 'orange': 8, 'peach': 1}
+sorted_dict_asc = dict(sorted(my_dict.items(), key=lambda item: item[1]))
+print("Sorted Dictionary in Ascending Order:")
+print(sorted_dict_asc)
+sorted_dict_desc = dict(sorted(my_dict.items(), key=lambda item: item[1], reverse=True))
+print("\nSorted Dictionary in Descending Order:")
+print(sorted_dict_desc)
+
+
+
+OUTPUT:
+Sorted Dictionary in Ascending Order:
+{'peach': 1, 'banana': 2, 'apple': 5, 'orange': 8}
+
+Sorted Dictionary in Descending Order:
+{'orange': 8, 'apple': 5, 'banana': 2, 'peach': 1}
