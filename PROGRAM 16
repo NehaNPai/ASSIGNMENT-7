@@ -1,0 +1,10 @@
+#PROGRAM 16
+sample_dict = {'a': 10, 'b': 20, 'c': 30, 'd': 40, 'e': 50}
+sorted_dict = sorted(sample_dict.items(), key=lambda x: x[1], reverse=True)
+result_dict = {k: v for k, v in sorted_dict[:3]}
+print(result_dict)
+
+
+
+OUTPUT:
+{'a': 400, 'b': 400, 'c': 300, 'd': 400}
