@@ -1,0 +1,12 @@
+#PROGRAM 18
+dict_list1 = [{},{},{}]
+dict_list2 = [{1,2},{},{}]
+
+print(check_dicts_empty(dict_list1))  
+print(check_dicts_empty(dict_list2)) 
+
+
+
+OUTPUT:
+Sample list : [{},{},{}]
+Return value : True
