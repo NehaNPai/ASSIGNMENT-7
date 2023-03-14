@@ -1,0 +1,11 @@
+#PROGRAM 14
+sample_dict = {}
+if bool(sample_dict):
+    print("The dictionary is not empty.")
+else:
+    print("The dictionary is empty.")
+    
+    
+    
+    OUTPUT:
+    The dictionary is empty.
