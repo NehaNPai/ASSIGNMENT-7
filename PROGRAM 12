@@ -1,0 +1,14 @@
+#PROGRAM 12
+sample_dict = {"apple": 2, "banana": 3, "orange": 1, "grape": 4}
+max_value = max(sample_dict.values())
+max_key = max(sample_dict, key=sample_dict.get)
+min_value = min(sample_dict.values())
+min_key = min(sample_dict, key=sample_dict.get)
+print(f"The maximum value in the dictionary is {max_value}, associated with the key '{max_key}'.")
+print(f"The minimum value in the dictionary is {min_value}, associated with the key '{min_key}'.")
+
+
+
+OUTPUT:
+The maximum value in the dictionary is 4, associated with the key 'grape'.
+The minimum value in the dictionary is 1, associated with the key 'orange'.
