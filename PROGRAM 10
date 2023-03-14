@@ -1,0 +1,10 @@
+#PROGRAM 10
+sample_dict = {"apple": 2, "banana": 3, "orange": 1, "grape": 4}
+del sample_dict["orange"]
+print(f"The updated dictionary after removing the 'orange' key: {sample_dict}")
+
+OUTPUT:
+The product of all items in the dictionary is: 24
+
+
+
