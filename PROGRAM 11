@@ -1,0 +1,10 @@
+#PROGRAM 11
+sample_dict = {"apple": 2, "banana": 3, "orange": 1, "grape": 4}
+sorted_dict = dict(sorted(sample_dict.items()))
+print(f"The sorted dictionary by key: {sorted_dict}")
+
+
+
+
+OUTPUT:
+The sorted dictionary by key: {'apple': 2, 'banana': 3, 'grape': 4, 'orange': 1}
