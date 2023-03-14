@@ -1,0 +1,29 @@
+#PROGRAM 5
+sample_dict = {"apple": 2, "banana": 3, "orange": 1, "grape": 4}
+print("Iterating over the keys:")
+for key in sample_dict:
+    print(key)
+print("Iterating over the values:")
+for value in sample_dict.values():
+    print(value)
+print("Iterating over the key-value pairs:")
+for key, value in sample_dict.items():
+    print(f"{key}: {value}")
+    
+    OUTPUT:
+    Iterating over the keys:
+apple
+banana
+orange
+grape
+Iterating over the values:
+2
+3
+1
+4
+Iterating over the key-value pairs:
+apple: 2
+banana: 3
+orange: 1
+grape: 4
+> 
