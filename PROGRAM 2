@@ -1,0 +1,10 @@
+sample_dict = {0: 10, 1: 20}  
+key = 2  
+value = 30  
+sample_dict.update({key: value})
+print(sample_dict)
+
+
+
+OUTPUT:
+{0: 10, 1: 20, 2: 30}
