@@ -1,0 +1,12 @@
+#PROGRAM 13
+sample_dict = {"apple": 2, "banana": 3, "orange": 1, "grape": 2, "kiwi": 3}
+unique_dict = {}
+for key, value in sample_dict.items():
+    if value not in unique_dict.values():
+        unique_dict[key] = value
+print(f"The dictionary with duplicates removed: {unique_dict}")
+
+
+
+OUTPUT:
+The dictionary with duplicates removed: {'apple': 2, 'banana': 3, 'orange': 1}
