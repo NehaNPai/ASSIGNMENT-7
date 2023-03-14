@@ -1,0 +1,14 @@
+#PROGRAM 4
+sample_dict = {0: 10, 1: 20, 2: 30, 3: 40}  
+key = 2  
+if key in sample_dict:
+    print(f"The key {key} exists in the dictionary.")
+else:
+    print(f"The key {key} does not exist in the dictionary.")
+    
+    
+    
+    
+    
+    OUTPUT:
+    The key 2 exists in the dictionary.
