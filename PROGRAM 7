@@ -1,0 +1,10 @@
+#PROGRAM 7
+dict1 = {1: "one", 2: "two", 3: "three"}  
+dict2 = {4: "four", 5: "five", 6: "six"}  
+merged_dict = dict1.copy()  
+merged_dict.update(dict2) 
+print(merged_dict)
+
+
+OUTPUT:
+{1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six'}
