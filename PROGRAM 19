@@ -1,0 +1,17 @@
+#PROGRAM 19
+def remove_duplicates(lists):
+    new_list = []
+    for sublist in lists:
+        if sublist not in new_list:
+            new_list.append(sublist)
+    return new_list
+list_of_lists = [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]]
+
+new_list_of_lists = remove_duplicates(list_of_lists)
+
+print(new_list_of_lists) 
+
+
+
+OUTPUT:
+[[10, 20], [40], [30, 56, 25], [33]]
